@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="coco no .icon.ico" type="image/x-icon">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <hr>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="">
+    </picture>
+    <hr>
+    <h1>Reproduzindo Audio</h1>
+    <hr>
+    <ul><li><h3>Musiquinha legal</h3></li></ul>
+    <audio preload="metadata" controls loop>
+        <source src="midia/musiquinha legal.mp3" type="audio/mpeg">
+    </audio>
+    <ul><li><a href="midia/musiquinha legal.mp3" download="Musiquinha legal" type="audio/mpeg"target="_blank">Baixar Musica</a></li></ul>
+</body>
+</html>

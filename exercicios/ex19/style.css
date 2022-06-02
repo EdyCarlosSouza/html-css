@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, rgb(80, 78, 78),rgb(207, 207, 207), rgb(36, 36, 36));
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 12px 8px rgba(0, 0, 0, 0.5);
+}
+h1{
+    text-align: center;
+    background-color: rgb(165, 42, 42);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 1px 1.5px black;
+}
+/* 
+id em HTML = "#" em CSS (apenas um elemento)
+class em HTML = "." em CSS (varios elementos)
+*/
+#principal{
+    text-align: center;
+    background-color: brown;
+    color: #fff;
+    border-radius: 30px;
+}
+h2{
+    color: rgb(255, 230, 0);
+}
+.basico{
+    color: rgb(0, 140, 255); 
+    font-weight: bold; 
+}
+.intermediario{
+    color: rgb(59, 0, 136);
+    font-weight: bold;
+}
+.avancado{
+    color: rgb(139, 0, 0);
+    font-weight: bold;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
