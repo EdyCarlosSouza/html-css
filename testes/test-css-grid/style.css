@@ -1,0 +1,36 @@
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+}
+
+header{
+    background-color: chartreuse;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+main{
+    background-color: crimson;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+aside{
+    background-color: dodgerblue;
+    height: 100px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+footer{
+    background-color: darkorange;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
