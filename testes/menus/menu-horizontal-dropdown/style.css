@@ -1,0 +1,48 @@
+:root{
+    --cor1: rgb(3, 179, 192);
+    --cor2: rgb(22, 19, 31);
+    --cor3: rgb(255, 255, 255);
+}
+*{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.menu ul{
+    background-color: var(--cor2);
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 10px;
+    color: var(--cor3);
+    text-decoration: none;
+    display: block;
+    
+    transition: background  .5s;
+}
+.menu ul li a:hover{
+    background-color: var(--cor1);
+}
+
+/* Sub Menu */
+.menu ul ul{
+    display: none;
+    position: absolute;
+}
+.menu ul ul{
+    width: 150px;
+}
+
+.menu ul ul li a{
+    display: block;
+    width: 130px;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 02 - thead, tbody, tfood</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        caption{
+            background-color: cadetblue;
+            padding: 5px;
+            font-weight: bold;
+        }
+        table{
+            position: relative;
+            margin: auto;
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: solid 1px black;
+            padding: 10px;
+        }
+        thead{
+            background-color: black;
+            color: #fff;
+        }
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+        tbody tr:nth-child(even){
+            background-color: rgba(0, 0, 0, 0.356);
+        }
+        tfoot{
+            background-color: rgb(185, 67, 67);
+            color: #fff;
+        }
+        .numero{
+            text-align: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- Anatomia para tabelas grandes
+        table
+            thead
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+
+    <table>
+        <caption>Populaçõa das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Populção</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">49.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.865</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">49.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.865</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">49.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.865</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">49.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.865</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">49.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.865</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">49.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.865</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">49.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.865</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">49.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.865</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="numero"><strong>###.###.###</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas similique reiciendis assumenda suscipit voluptate! Nihil maiores modi minus at. Placeat sunt ipsam totam nihil laudantium inventore natus excepturi ipsum a.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam officiis harum nemo voluptas dolorum reiciendis! Ullam cumque hic quidem. Quod nam maxime numquam, eos consequuntur voluptate facere neque. Doloribus, voluptates? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, a. Dolores amet pariatur quas et illo hic minima quisquam voluptates dolor facilis, possimus dolorum deleniti! Officiis aperiam modi repellendus eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde voluptatum labore nostrum odit aliquid minima laboriosam. Voluptatibus explicabo sunt quas nam omnis! Iure totam vero labore nostrum, accusantium quibusdam.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas similique reiciendis assumenda suscipit voluptate! Nihil maiores modi minus at. Placeat sunt ipsam totam nihil laudantium inventore natus excepturi ipsum a.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam officiis harum nemo voluptas dolorum reiciendis! Ullam cumque hic quidem. Quod nam maxime numquam, eos consequuntur voluptate facere neque. Doloribus, voluptates? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, a. Dolores amet pariatur quas et illo hic minima quisquam voluptates dolor facilis, possimus dolorum deleniti! Officiis aperiam modi repellendus eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde voluptatum labore nostrum odit aliquid minima laboriosam. Voluptatibus explicabo sunt quas nam omnis! Iure totam vero labore nostrum, accusantium quibusdam.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas similique reiciendis assumenda suscipit voluptate! Nihil maiores modi minus at. Placeat sunt ipsam totam nihil laudantium inventore natus excepturi ipsum a.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam officiis harum nemo voluptas dolorum reiciendis! Ullam cumque hic quidem. Quod nam maxime numquam, eos consequuntur voluptate facere neque. Doloribus, voluptates? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, a. Dolores amet pariatur quas et illo hic minima quisquam voluptates dolor facilis, possimus dolorum deleniti! Officiis aperiam modi repellendus eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde voluptatum labore nostrum odit aliquid minima laboriosam. Voluptatibus explicabo sunt quas nam omnis! Iure totam vero labore nostrum, accusantium quibusdam.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas similique reiciendis assumenda suscipit voluptate! Nihil maiores modi minus at. Placeat sunt ipsam totam nihil laudantium inventore natus excepturi ipsum a.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam officiis harum nemo voluptas dolorum reiciendis! Ullam cumque hic quidem. Quod nam maxime numquam, eos consequuntur voluptate facere neque. Doloribus, voluptates? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, a. Dolores amet pariatur quas et illo hic minima quisquam voluptates dolor facilis, possimus dolorum deleniti! Officiis aperiam modi repellendus eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde voluptatum labore nostrum odit aliquid minima laboriosam. Voluptatibus explicabo sunt quas nam omnis! Iure totam vero labore nostrum, accusantium quibusdam.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas similique reiciendis assumenda suscipit voluptate! Nihil maiores modi minus at. Placeat sunt ipsam totam nihil laudantium inventore natus excepturi ipsum a.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam officiis harum nemo voluptas dolorum reiciendis! Ullam cumque hic quidem. Quod nam maxime numquam, eos consequuntur voluptate facere neque. Doloribus, voluptates? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, a. Dolores amet pariatur quas et illo hic minima quisquam voluptates dolor facilis, possimus dolorum deleniti! Officiis aperiam modi repellendus eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde voluptatum labore nostrum odit aliquid minima laboriosam. Voluptatibus explicabo sunt quas nam omnis! Iure totam vero labore nostrum, accusantium quibusdam.
+    </p>
+</body>
+</html>
